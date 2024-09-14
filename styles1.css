@@ -4,9 +4,41 @@ html {
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    /* font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style: normal; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
+#projectPage-nav {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#achievePage-nav {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.buttons{
+    padding-left: 7vw;
+    display: flex;
+    justify-content:flex-start;
+}
 .nav1 {
     display: flex;
     justify-content: flex-start;
@@ -98,7 +130,7 @@ a {
     }
     .main1{
         padding-top: 4vh;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse; 
         align-items: center;
     }
     .intro{
@@ -120,4 +152,14 @@ a {
     .item1 {
         font-size: 16px;
     }
+}
+
+/* Animations */
+
+#projectPage-nav:hover {
+    background-color: #45a049;
+}
+
+#achievePage-nav:hover {
+    background-color: #45a049;
 }
