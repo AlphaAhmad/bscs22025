@@ -6,12 +6,15 @@ body{
     margin: 0;
     /* background-image: url(./achievement\ bg.jpg);
     background-repeat: no-repeat; */
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 
 .nav1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-weight: 700;
     padding: 10px;
     background-color: white;
     flex-wrap: wrap; /* Allow wrapping in smaller screens */
@@ -22,6 +25,7 @@ body{
     font-size: 24px;
     color: rgba(125, 42, 232, 255);
     margin-right: 40px;
+    font-weight: 700;
 }
 
 .ls1 {

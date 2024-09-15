@@ -13,7 +13,6 @@ body {
     font-weight:bolder;
     font-style: normal; */
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
     font-style: normal;
 }
 
@@ -39,7 +38,7 @@ body {
 }
 
 .buttons{
-    padding-left: 7vw;
+    padding-left: 10vw;
     display: flex;
     justify-content:flex-start;
 }
@@ -48,6 +47,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
+    font-weight: 700;
     background-color: white;
     flex-wrap: wrap; /* Allow wrapping in smaller screens */
     /* text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8) */    
@@ -78,15 +78,15 @@ a {
 }
 
 .circular-frame {
-    width: 400px;           /* You can adjust the size of the frame */
-    height: 400px;
+    width: 420px;           /* You can adjust the size of the frame */
+    height: 420px;
     border-radius: 50%;      /* Makes the frame circular */
     overflow: hidden;        /* Ensures the image stays inside the circular area */
     border: 1px solid #FF6363; /* Optional: Adds a border around the circle */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 45vh;
+    margin-left: 25vh;
 }
 
 .circular-frame img {
@@ -100,7 +100,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top:13vh;
+    padding-top:7vh;
 }
 
 .intro {
@@ -112,6 +112,59 @@ a {
     word-wrap: break-word;
     overflow-wrap: break-word; 
     text-align: justify;
+}
+
+/* CSS FOR FOOTER */
+
+footer {
+    display: inline-flex;
+    align-items:center;
+    width: 100vw;
+    height: 30px auto;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    min-height: 100px;
+    flex-direction: column;
+}
+
+.social-icon__item{
+    display: inline-flex;
+    justify-content: center;
+    margin: 40px;
+    list-style: none;
+}
+
+
+.whatsapp{
+    height:53px;
+    transition: 0.3s;
+    transition-timing-function:  ease-in-out;
+}
+
+.facebook{
+    height:50px;
+    transition: 0.3s;
+    transition-timing-function:  ease-in-out;
+}
+
+.insta{
+    height:55px;
+    transition: 0.3s;
+    transition-timing-function:  ease-in-out;
+}
+
+.whatsapp:hover{
+    transform: translateY(-13px);
+}
+
+.facebook:hover{
+    transform: translateY(-13px);
+}
+
+.insta:hover{
+    transform: translateY(-13px);
 }
 
 /* Media queries for responsiveness */
@@ -143,9 +196,13 @@ a {
         width:80vw;
     }
     .circular-frame{
-        width: 200px;           /* You can adjust the size of the frame */
+        width: 200px;           
         height: 200px;
         margin-left: 0;
+    }
+
+    .social-icon__item{
+        margin: 7vw;
     }
 }
 
