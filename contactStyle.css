@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     /* background-position:20vw; */
     background-size: 100vw 100vh;
-    height:90vh;
+    height:100vh;
     background-clip: inherit;
 }
 
@@ -20,6 +20,7 @@ body {
     padding: 10px;
     background-color: white;
     flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
     /* Allow wrapping in smaller screens */
 }
 
@@ -48,6 +49,7 @@ a {
     /* Matches the color of the surrounding text */
 }
 
+/* for styled headings */
 div.two{
     padding-top: 50px;
 }
@@ -56,7 +58,7 @@ h1.head1 {
     position: relative;
     padding: 0;
     margin: 0;
-    font-family: "Raleway", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 40px;
     color: #080808;
@@ -122,7 +124,7 @@ h2.secondary {
     position: relative;
     padding: 0;
     margin: 0;
-    font-family: "Raleway", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 40px;
     color: #080808;
@@ -160,9 +162,14 @@ h2.secondary {
     background-color: #333;
   }
   
-  ul{
-    font-size: large;
+  ul.PersonalInfo{
+    padding-left: 5vw;
+    font-size: 25px;
     white-space:initial;
+  }
+
+  ul.PersonalInfo li{
+    text-wrap: wrap;
   }
 
 /* div.heading h1{
@@ -202,6 +209,11 @@ div.heading h1 span{
     .ls1 {
         flex-direction: column;
         width: 100%;
+    }
+
+    ul.PersonalInfo{
+        padding-left: 10vw;
+        font-size: 20px;
     }
 
     .item1 {
