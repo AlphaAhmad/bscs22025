@@ -116,9 +116,9 @@ h1.head1 em {
 /* For h2 headings */
 
 .three{
-    padding-left: 2vw;
-    padding-top: 5vh;
-    word-spacing: 0.5vw;
+    padding-left: 2vw !important; 
+    padding-top: 5vh !important;
+    word-spacing: 0.5vw !important;
 }
 
 h2.secondary {
