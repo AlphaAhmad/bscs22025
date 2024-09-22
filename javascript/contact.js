@@ -13,6 +13,16 @@ const emailInfo = {
     email1: "muhammadadhmad8063@gmail.com"
 };
 
+// defining parameters i am going to use
+/**
+ * This function creates and appends an HTML element to the container.
+ * @param {HTMLElement} container - The parent element to which new elements will be appended.
+ * @param {String} elementType - The type of element (e.g., 'h1', 'p') to create.
+ * @param {String} createdElementContent - The text content to insert inside the 
+ * @param {String} elementID
+ * @param {String} elementClass
+*/
+
 function createElement(container, elementType, createdElementContent = null, elementID = null, elementClass = null) {
     const element = document.createElement(elementType);
     if (createdElementContent != null) {
@@ -70,8 +80,10 @@ function DisplayPhoneNumbers() {
 }
 
 // Display function calls
-DisplayMainHeading();
-DisplayPhoneNumbers();
-
+document.addEventListener("DOMContentLoaded", function() {
+    // All your function calls should go here
+    DisplayMainHeading();
+    DisplayPhoneNumbers();
+});
 
 
